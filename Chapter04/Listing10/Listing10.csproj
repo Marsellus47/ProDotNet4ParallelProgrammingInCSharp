@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91FC71BE-49CD-4418-B77A-1AF49ACBCCA8}</ProjectGuid>
+    <ProjectGuid>{C37E0778-CCBB-414B-95D0-BCA5BD26F768}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Listing06</RootNamespace>
-    <AssemblyName>Listing06</AssemblyName>
+    <RootNamespace>Listing10</RootNamespace>
+    <AssemblyName>Listing10</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,12 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Chapter03\Listing01\Listing01.csproj">
-      <Project>{CC2D9E59-7174-4658-9AA0-1111DA8938CB}</Project>
-      <Name>Listing01</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
